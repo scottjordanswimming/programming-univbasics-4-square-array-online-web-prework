@@ -8,7 +8,7 @@ def square_array(array)
     counter += 1
 end
 
-print new_numbers
+puts new_numbers
 
 end
 
