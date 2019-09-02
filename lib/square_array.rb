@@ -4,10 +4,9 @@ def square_array(array)
   new_numbers = Array.new
   
   while counter < array.length do
-    new_numbers << (numbers[counter] * numbers[counter])
+    puts new_numbers << (numbers[counter] * numbers[counter])
     counter += 1
 end
-square_array(new_numbers)
 
 end
 
