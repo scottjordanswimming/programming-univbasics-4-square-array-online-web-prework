@@ -5,6 +5,7 @@ def square_array(array)
   
   while counter < array.length do
     new_numbers.push numbers[counter] * numbers[counter]
+    counter += 1
 end
 
 puts new_numbers
