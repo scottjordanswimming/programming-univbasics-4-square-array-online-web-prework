@@ -8,7 +8,6 @@ def square_array(array)
     counter += 1
 end
 
-puts new_numbers.inspect
-
 end
 
+square_array(new_numbers)
