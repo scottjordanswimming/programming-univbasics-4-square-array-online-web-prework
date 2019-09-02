@@ -3,15 +3,11 @@ def square_array(array)
   counter = 0
   new_numbers = Array.new
   
-  while counter <
+  while counter < array.length do
+    new_numbers.push numbers[counter] * numbers[counter]
 end
 
-nums = Array.new
+puts new_numbers
 
-nums.push 1
-nums.push 2
-nums.push 3
-nums.push 4
-nums.push 5
+end
 
-puts nums
